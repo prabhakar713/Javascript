@@ -106,52 +106,51 @@ Operators
   
   
 Operator	Precedence
--[x] ()	Grouping
--[x] []	Property Access
--[x] .	Member Access
--[x] new	New
--[x] ++	Increment
--[x] --	Decrement
--[x] !	Logical NOT
--[x] ~	Bitwise NOT
--[x] +	Unary plus
--[x] -	Unary negation
--[x] *	Multiplication
--[x] /	Division
--[x] %	Modulus
--[x] +	Addition
--[x] -	Subtraction
--[x] <<	Left shift
--[x] >>	Right shift
--[x] >>>	Unsigned right shift
--[x] <	Less than
--[x] <=	Less than or equal to
--[x] >	Greater than
--[x] >=	Greater than or equal to
--[x] in	Property in object
--[x] instanceof	Object of type
--[x] ==	Equal to
--[x] !=	Not equal to
--[x] ===	Strict equal to
--[x] !==	Strict not equal to
--[x] &	Bitwise AND
--[x] ^	Bitwise XOR
--[x] |	Bitwise OR
--[x] &&	Logical AND
--[x] ||	Logical OR
--[x] ?:	Ternary operator
--[x] =	Assignment
--[x] +=	Addition assignment
--[x] -=	Subtraction assignment
--[x] *=	Multiplication assignment
--[x] /=	Division assignment
--[x] %=	Modulus assignment
--[x] <<=	Left shift assignment
--[x] >>=	Right shift assignment
--[x] >>>=	Unsigned right shift assignment
--[x] &=	Bitwise AND assignment
--[x] ^=	Bitwise XOR assignment
--[x] |=	Bitwise OR assignment
--[x] Yield function generator
--[x] ,	Comma
-
+- [x] ()	Grouping
+- [x] []	Property Access
+- [x] .	Member Access
+- [x] new	New
+- [x] ++	Increment
+- [x] --	Decrement
+- [x] !	Logical NOT
+- [x] ~	Bitwise NOT
+- [x] +	Unary plus
+- [x] -	Unary negation
+- [x] *	Multiplication
+- [x] /	Division
+- [x] %	Modulus
+- [x] +	Addition
+- [x] -	Subtraction
+- [x] <<	Left shift
+- [x] >>	Right shift
+- [x] >>>	Unsigned right shift
+- [x] <	Less than
+- [x] <=	Less than or equal to
+- [x] >	Greater than
+- [x] >=	Greater than or equal to
+- [x] in	Property in object
+- [x] instanceof	Object of type
+- [x] ==	Equal to
+- [x] !=	Not equal to
+- [x] ===	Strict equal to
+- [x] !==	Strict not equal to
+- [x] &	Bitwise AND
+- [x] ^	Bitwise XOR
+- [x] |	Bitwise OR
+- [x] &&	Logical AND
+- [x] ||	Logical OR
+- [x] ?:	Ternary operator
+- [x] =	Assignment
+- [x] +=	Addition assignment
+- [x] -=	Subtraction assignment
+- [x] *=	Multiplication assignment
+- [x] /=	Division assignment
+- [x] %=	Modulus assignment
+- [x] <<=	Left shift assignment
+- [x] >>=	Right shift assignment
+- [x] >>>=	Unsigned right shift assignment
+- [x] &=	Bitwise AND assignment
+- [x] ^=	Bitwise XOR assignment
+- [x] |=	Bitwise OR assignment
+- [x] Yield function generator
+- [x] ,	Comma
