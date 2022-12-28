@@ -4,16 +4,16 @@ console.log("test");
 
 // variable declaration and assignment 
 var variableNAme="welcome to variable";
-console.log(variableNAme);
+console.log(variableNAme);//welcome to variable
 //decleare varible
 let variableNAme1="welcome to variable";
-console.log(variableNAme1);
+console.log(variableNAme1);//welcome to variable
 //reaasign the variable
 variableNAme1="hello";
-console.log(variableNAme1);
+console.log(variableNAme1);//hello
 //const variable
 const variableNAme2="welcome to variable";
-console.log(variableNAme2); 
+console.log(variableNAme2); //welcome to variable
 //reaasign the variable is not avialble in const
 //variableNAme2="hello"; //error
 //console.log(variableNAme2);
@@ -21,10 +21,10 @@ console.log(variableNAme2);
 
 
 //reserved keyword 
-const fuction='function';
+const fuction='function';//error
 console.log(fuction); //error
 //fuction='hello'; //error
-console.log(fuction);
+console.log(fuction);//error
 
 
 // variable naming 
