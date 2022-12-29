@@ -225,8 +225,8 @@ console.log(10 << 2); //40
 
 //String Operators
 // +	Addition	Adds together two strings
-const str1="Hello";
-const str2="World";
+let str1="Hello";
+let str2="World";
 console.log(str1+str2); //HelloWorld
 // +=	Addition assignment	Adds the right operand to the left operand and assigns the result to the left operand
 console.log(str1+=str2); //HelloWorld
@@ -244,10 +244,10 @@ console.log(voteable); //Old enough
 //-----------------------------------------------------------------------------------------------------------------------------------------//
 //Comma Operator
 // ,	Comma Operator	Evaluates each of its operands (from left to right) and returns the value of the last operand
-const x=10;
-const y=20;
-const z=30;
-console.log(x,y,z); //10 20 30
+const x4=10;
+const y4=20;
+const z4=30;
+console.log(x4,y4,z4); //10 20 30
 
 
 //-----------------------------------------------------------------------------------------------------------------------------------------//
@@ -279,15 +279,15 @@ console.log(void 0); //undefined
 
 //Instanceof Operator
 // instanceof	Returns true if an object is an instance of an object type
-const person={name:"John",age:30};
-console.log(person instanceof Object); //true
+const personn={name:"John",age:30};
+console.log(personn instanceof Object); //true
 
 //in Operator
 // in	Returns true if the specified property is in the specified object
-const person={name:"John",age:30};
-console.log("name" in person); //true
-console.log("age" in person); //true
-console.log("salary" in person); //false
+const person2={name:"John",age:30};
+console.log("name" in person2); //true
+console.log("age" in person2); //true
+console.log("salary" in person2); //false
 
 //+ Unary plus Tries to convert the operand to a number, if it is not already
 console.log(+10); //10
@@ -316,45 +316,74 @@ console.log(~-10); //9
 
 //Increment/Decrement Operators
 // ++	Increment	Adds one to its operand
-let x=10;
-console.log(++x); //11
+let m=10;
+console.log(++m); //11
 // --	Decrement	Subtracts one from its operand
-console.log(--x); //10
+console.log(--m); //10
 
 //++ Postfix increment Adds one to its operand
-let x=10;
-console.log(x++); //10
+let p=10;
+console.log(p++); //10
 // -- Postfix decrement Subtracts one from its operand
-console.log(x--); //11
+console.log(p--); //11
 
 //new Creates an instance of a user-defined object type or of one of the built-in object types that has a constructor function
-const person=new Object();
-person.name="John";
-person.age=30;
-console.log(person); //{name: "John", age: 30}
+const person3=new Object();
+person3.name="John";
+person3.age=30;
+console.log(person3); //{name: "John", age: 30}
 
 
 //-----------------------------------------------------------------------------------------------------------------------------------------//
 
 //Relational Operators
-const person={name:"John",age:30};
-console.log("name" in person); //true
-console.log("age" in person); //true
-console.log("salary" in person); //false
-console.log(person instanceof Object); //true
+const person4={name:"John",age:30};
+console.log("name" in person4); //true
+console.log("age" in person4); //true
+console.log("salary" in person4); //false
+console.log(person4 instanceof Object); //true
 //-----------------------------------------------------------------------------------------------------------------------------------------//
 
 
 //Equality Operators
 console.log(10==10); //true
-console.log(10=="10"); //true
+console.log(10=="10"); //true   
 console.log(10==="10"); //false
 console.log(10!=10); //false
 console.log(10!="10"); //false
 console.log(10!=="10"); //true
 
-//()    Grouping	Forces evaluation of expression inside parentheses first
-console.log((10+2)*2); //24
+//strict equality operator
+//compare VALUES and DATA TYPES
+//return true only if both are same
+console.log(10===10); //true
+console.log(10==="10"); //false
+
+//loose equality operator
+//Does not compare DATA TYPES
+//compare VALUES only
+//return true if both are same
+console.log(10==10); //true
+console.log(10=="10"); //true
+
+//strict inequality operator
+//compare VALUES and DATA TYPES
+//return true only if both are not same
+console.log(10!==10); //false
+console.log(10!=="10"); //true
+
+//loose inequality operator
+//Does not compare DATA TYPES
+//compare VALUES only
+//return true if both are not same
+console.log(10!=10); //false
+console.log(10!="10"); //false
+
+
+//Note:- javascript has two sets of equality operators 
+// The Good Ones : === and !==
+// The Evil Ones : == and !=
+
 //-----------------------------------------------------------------------------------------------------------------------------------------//
 // Operator	Precedence
 // Operator	Precedence
@@ -410,23 +439,23 @@ console.log((10+2)*2); //24
 //()    Grouping	Forces evaluation of expression inside parentheses first
 console.log((10+2)*2); //24
 // [] Property Access
-const person={name:"John",age:30};
-console.log(person["name"]); //John
-console.log(person["age"]); //30
+const person5={name:"John",age:30};
+console.log(person5["name"]); //John
+console.log(person5["age"]); //30
 // . Member Access
-const person={name:"John",age:30};
-console.log(person.name); //John
-console.log(person.age); //30
+const person6={name:"John",age:30};
+console.log(person6.name); //John
+console.log(person6.age); //30
 // new New
-const person=new Object();
-person.name="John";
-person.age=30;
-console.log(person); //{name: "John", age: 30}
+const person7=new Object();
+person7.name="John";
+person7.age=30;
+console.log(person7); //{name: "John", age: 30}
 // ++ Increment
-let x=10;
-console.log(++x); //11
+let xy=10;
+console.log(++xy); //11
 // -- Decrement
-console.log(--x); //10
+console.log(--xy); //10
 // ! Logical NOT
 console.log(!true); //false
 console.log(!false); //true
@@ -472,10 +501,10 @@ console.log(10>20); //false
 // >= Greater than or equal to
 console.log(10>=20); //false
 // in Property in object
-const person={name:"John",age:30};
-console.log("name" in person); //true
-console.log("age" in person); //true
-console.log("salary" in person); //false
+const person8={name:"John",age:30};
+console.log("name" in person8); //true
+console.log("age" in person8); //true
+console.log("salary" in person8); //false
 // instanceof Object of type
 console.log(person instanceof Object); //true
 // == Equal to
@@ -505,45 +534,45 @@ console.log(true||false); //true
 console.log(false||true); //true
 console.log(false||false); //false
 // ?: Ternary operator
-const age=20;
-const result=(age>=18)?"Adult":"Minor";
+const age3=20;
+const result=(age3>=18)?"Adult":"Minor";
 console.log(result); //Adult
 // = Assignment
-let x=10;
+let x2=10;
 console.log(x); //10
 // += Addition assignment
-x+=5;
-console.log(x); //15
+x2+=5;
+console.log(x2); //15
 // -= Subtraction assignment
-x-=5;
-console.log(x); //10
+x2-=5;
+console.log(x2); //10
 // *= Multiplication assignment
-x*=5;
-console.log(x); //50
+x2*=5;
+console.log(x2); //50
 // /= Division assignment
-x/=5;
-console.log(x); //10
+x2/=5;
+console.log(x2); //10
 // %= Modulus assignment
-x%=3;
-console.log(x); //1
+x2%=3;
+console.log(x2); //1
 // <<= Left shift assignment
-x<<=2;
-console.log(x); //4
+x2<<=2;
+console.log(x2); //4
 // >>= Right shift assignment
-x>>=2;
-console.log(x); //1
+x2>>=2;
+console.log(x2); //1
 // >>>= Unsigned right shift assignment
-x>>>=2;
-console.log(x); //0
+x2>>>=2;
+console.log(x2); //0
 // &= Bitwise AND assignment
-x&=2;
-console.log(x); //0
+x2&=2;
+console.log(x2); //0
 // ^= Bitwise XOR assignment
-x^=2;
-console.log(x); //2
+x2^=2;
+console.log(x2); //2
 // |= Bitwise OR assignment
-x|=2;
-console.log(x); //2
+x2|=2;
+console.log(x2); //2
 // Yield function generator
 function* generator(){
     yield 1;
@@ -555,7 +584,7 @@ console.log(gen.next().value); //1
 console.log(gen.next().value); //2
 console.log(gen.next().value); //3
 // , Comma
-const x=10,y=20;
-console.log(x,y); //10 20
+const x1=10,y=20;
+console.log(x1,y); //10 20
 
 
